@@ -97,21 +97,21 @@ body {
 
 @font-face {
   font-family: "Muller";
-  src: url("../../fonts/MullerRegular.woff") format("woff");
+  src: url("../fonts/MullerRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MullerExtraBold";
-  src: url("../../fonts/MullerExtraBold.woff") format("woff");
+  src: url("../fonts/MullerExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "MullerHeavy";
-  src: url("../../fonts/MullerHeavy.woff") format("woff");
+  src: url("../fonts/MullerHeavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
