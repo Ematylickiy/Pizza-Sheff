@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <title>Pizza Sheff</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <div class="logo">
+                    <img src="./images/pizza_logo.png" alt="logo">
+                    <span class="text__orange">Pizza <br> cheff</p>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-list-item"><a href="#">Пиццы</a></li>
+                        <li class="nav-list-item"><a href="#">Напитки</a></li>
+                        <li class="nav-list-item"><a href="#">Доставка и оплата</a></li>
+                        <li class="nav-list-item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header wow slideInLeft">
+        <div class="container">
+            <div >
+                <div class="left-part">
+                    <h1 class="title text__brown">Самая вкусная пицца в мире <span class="text__orange">только в Pizza Cheff</span></h1>
+
+                    <div class="benefits">
+                        <div class="benefits-row">
+                            <div class="benefits-block">
+                                <img src="./images/dough.png" alt="dough">
+                                <div>
+                                    <p class="block-title text__orange">Лучшее тесто</p>
+                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по
+                                        всему миру</p>
+                                </div>
+                            </div>
+
+                            <div class="benefits-block">
+                                <img src="./images/kitchen_pack.png" alt="pack">
+                                <div>
+                                    <p class="block-title text__orange">лучшие повара</p>
+                                    <p class="block-description text__brown">Пиццы готовят самые профессиональные итальянские повара
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="benefits-row">
+                            <div class="benefits-block">
+                                <img src="./images/quality_mark.png" alt="quality_mark">
+                                <div>
+                                    <p class="block-title text__orange">гарантия качества</p>
+                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по
+                                        всему миру</p>
+                                </div>
+                            </div>
+
+                            <div class="benefits-block">
+                                <img src="./images/recipe.png" alt="recipe">
+                                <div>
+                                    <p class="block-title text__orange">отборные рецепты</p>
+                                    <p class="block-description text__brown">Мы используем рецепты от мировых лидеров в изготовлении
+                                        пиццы</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <a href="#!" class="button button__selectPizza">Выбрать пиццу</a>
+                </div>
+                <img src="./images/pizza_big.png" alt="pizza_big">
+
+            </div>
+        </div>
+
+        </div>
+    </header>
+
+    <section class="menu" >
+        <div class="container">
+            <p class="menu-title text__brown">Выберите свою любимую пиццу</p>
+            <ul class="goods-list"></ul>
+        </div>
+    </section>
+
+    <footer class="footer wow slideInLeft" >
+        <div class="container footer-wrapper">
+            <div class="footer-text">
+                <div class="footer-text__delivery">
+                    <p class="text__orange">Хватит думать!</p>
+                    <p class="text__brown">Доставим заказ за 30 минут!</p>
+                </div>
+               
+
+                <p class="text__brown">Мы гарантированно доставим вашу пиццу за 30инут с момента оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!</p>
+            </div>
+            <form id="form" onsubmit="sendOrder()">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Ваше имя*" oninput="this.value = this.value.replace(/\./g, '')">
+                    <small id="name"></small>
+                </div>
+                <div class="input-group">
+                    <input type="text" name="deliveryAddress" placeholder="Адрес доставки*">
+                    <small id="deliveryAddress"></small>
+                </div>
+                <div class="input-group">
+                    <input type="tel"  name="phone" placeholder="Телефон*">
+                    <small id="phone"></small>
+                </div>
+                <button class="button btn__submit" type="submit">Оформить заказ</button>
+            </form>
+            <img src="./images/piece_pizza.png" alt="piece_pizza">
+        </div>
+    </footer>
+
+
+    <div class="overlay">
+        <div class="popup">
+            <h2 class="content">Спасибо за заказ!</h2>
+            <img src="./images/success.png" alt="success">
+        </div>
+    </div>
+
+    <script src="./wow.min.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+header {
+  padding: 132px 0 80px;
+}
+
+header .container>div {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.title {
+  font-family: MullerExtraBold;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}
+
+.benefits-row {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 45px;
+  flex: 1;
+}
+
+.benefits-block {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  flex: 1;
+}
+
+.benefits .block-title {
+  font-family: MullerExtraBold;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.benefits .block-description {
+  letter-spacing: 0.02em;
+}
+
+.button__selectPizza {
+  padding: 22px 52px;
+  max-width: 224px;
+}

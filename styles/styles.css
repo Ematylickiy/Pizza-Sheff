@@ -1,0 +1,117 @@
+@import url("./reset.css");
+@import url("./nav.css");
+@import url("./header.css");
+@import url("./menu.css");
+@import url("./footer.css");
+@import url('./animate.css');
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.fancybox__content {
+  width: 500px !important;
+  height: 500px !important;
+  transition: none;
+}
+
+.fancybox__content img {
+  width: 500px;
+  height: 500px;
+}
+
+body {
+  font-family: Muller;
+}
+
+.button {
+  color: #382400;
+  background-color: #ffaf18;
+  font-family: MullerExtraBold;
+  cursor: pointer;
+  transition: 0.3s all;
+  user-select: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #c1820f;
+  cursor: pointer;
+}
+
+
+.button:active {
+  box-shadow: inset 0 0 0 2px #382400
+}
+
+
+.text__orange {
+  color: #ffaf18;
+}
+
+.text__brown {
+  color: #b99150;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup h2 {
+  margin: 1rem 0;
+  color: #3bb54a;
+  font-size: 2rem;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../../fonts/MullerRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MullerExtraBold";
+  src: url("../../fonts/MullerExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MullerHeavy";
+  src: url("../../fonts/MullerHeavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
