@@ -1,4 +1,4 @@
-import menuGoods from '/data.js';
+import menuGoods from './data.js';
 
 new WOW().init();
 
