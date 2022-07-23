@@ -1,5 +1,3 @@
-import menuGoods from './data';
-
 new WOW().init();
 
 const createHtmlGood = (data) =>{

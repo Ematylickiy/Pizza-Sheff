@@ -48,5 +48,3 @@ const menuGoods = [
         ingredients: ['Сыр Джюгас', 'Сыр с плесенью', 'Сыр Моцарелла', 'Сыр секретный']
     },
 ];
-
-export default menuGoods
