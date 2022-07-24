@@ -5,6 +5,10 @@
 @import url("./footer.css");
 @import url("./animate.css");
 
+body.lock {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -65,14 +69,11 @@ body {
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
+  display: none;
 }
 
 .overlay.active {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
 
 .popup {
@@ -113,4 +114,11 @@ body {
   src: url("../fonts/MullerHeavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
+}
+
+@media (max-width: 550px) {
+  .fancybox__content {
+    width: 250px !important;
+    height: 250px !important;
+  }
 }

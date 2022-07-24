@@ -1,4 +1,27 @@
-new WOW().init();
+new WOW({
+  mobile: false,
+}).init();
+
+let isShowBurger = false;
+
+document.querySelector(".nav-menu__burger").addEventListener("click", (e) => {
+  e.stopPropagation();
+
+  const navList = document.querySelector(".nav-list");
+  const navBurger = document.querySelector(".nav-menu__burger");
+
+  if (isShowBurger) {
+    isShowBurger = false;
+    navBurger.classList.remove("active");
+    navList.classList.remove("active");
+  } else {
+    isShowBurger = true;
+    navBurger.classList.add("active");
+    navList.classList.add("active");
+  }
+
+  document.body.classList.toggle("lock");
+});
 
 const createHtmlGood = (data) => {
   return `
