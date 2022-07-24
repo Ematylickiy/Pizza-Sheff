@@ -32,18 +32,17 @@
 
     <header class="header wow slideInLeft">
         <div class="container">
-            <div >
-                <div class="left-part">
+            <div>
+                <div class="left-part df-column">
                     <h1 class="title text__brown">Самая вкусная пицца в мире <span class="text__orange">только в Pizza Cheff</span></h1>
 
-                    <div class="benefits">
+                    <div class="benefits df-column">
                         <div class="benefits-row">
                             <div class="benefits-block">
                                 <img src="./images/dough.png" alt="dough">
                                 <div>
                                     <p class="block-title text__orange">Лучшее тесто</p>
-                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по
-                                        всему миру</p>
+                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по всему миру</p>
                                 </div>
                             </div>
 
@@ -51,8 +50,7 @@
                                 <img src="./images/kitchen_pack.png" alt="pack">
                                 <div>
                                     <p class="block-title text__orange">лучшие повара</p>
-                                    <p class="block-description text__brown">Пиццы готовят самые профессиональные итальянские повара
-                                    </p>
+                                    <p class="block-description text__brown">Пиццы готовят самые профессиональные итальянские повара</p>
                                 </div>
                             </div>
                         </div>
@@ -62,8 +60,7 @@
                                 <img src="./images/quality_mark.png" alt="quality_mark">
                                 <div>
                                     <p class="block-title text__orange">гарантия качества</p>
-                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по
-                                        всему миру</p>
+                                    <p class="block-description text__brown">Наша пиццерия получила множество наград и признаний по всему миру</p>
                                 </div>
                             </div>
 
@@ -71,8 +68,7 @@
                                 <img src="./images/recipe.png" alt="recipe">
                                 <div>
                                     <p class="block-title text__orange">отборные рецепты</p>
-                                    <p class="block-description text__brown">Мы используем рецепты от мировых лидеров в изготовлении
-                                        пиццы</p>
+                                    <p class="block-description text__brown">Мы используем рецепты от мировых лидеров в изготовлении пиццы</p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +86,7 @@
         </div>
     </header>
 
-    <section class="menu" >
+    <section class="menu  wow slideInLeft" >
         <div class="container">
             <p class="menu-title text__brown">Выберите свою любимую пиццу</p>
             <ul class="goods-list"></ul>
@@ -104,11 +100,9 @@
                     <p class="text__orange">Хватит думать!</p>
                     <p class="text__brown">Доставим заказ за 30 минут!</p>
                 </div>
-               
-
                 <p class="text__brown">Мы гарантированно доставим вашу пиццу за 30инут с момента оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем всё, чтобы наш клиент был доволен и не остался голодный!</p>
             </div>
-            <form id="form" onsubmit="sendOrder()">
+            <form class="df-column" id="form">
                 <div class="input-group">
                     <input type="text" name="name" placeholder="Ваше имя*" oninput="this.value = this.value.replace(/\./g, '')">
                     <small id="name"></small>
@@ -129,7 +123,7 @@
 
 
     <div class="overlay">
-        <div class="popup">
+        <div class="popup df-column">
             <h2 class="content">Спасибо за заказ!</h2>
             <img src="./images/success.png" alt="success">
         </div>

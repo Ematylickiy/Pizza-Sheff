@@ -1,64 +1,61 @@
 .menu {
-    padding: 80px 0 100px;
+  padding: 80px 0 100px;
 }
 
 .menu-title {
-    text-align: center;
-    font-size: 35px;
-    font-family: MullerExtraBold;
-    margin-bottom: 60px;
+  text-align: center;
+  font-size: 35px;
+  font-family: MullerExtraBold;
+  margin-bottom: 60px;
 }
 
 .good-listItem-info {
-    margin: 1.5rem 0 17px;
-    text-align: center;
+  margin: 1.5rem 0 17px;
+  text-align: center;
 }
 
 .goods-list {
-    flex-wrap: wrap;
-    display: flex;
-    gap: 1.5rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .goods-listItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-    max-width: 282px;
-    background-color: #ffffff;
-    box-shadow: 0px 3px 14px 1px rgba(152, 152, 152, 0.2);
-    padding: 27px 20px 15px;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 282px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 14px 1px rgba(152, 152, 152, 0.2);
+  padding: 27px 20px 15px;
 }
 
 .good-listItem__img {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .good-listItem__img img {
-    transition: 0.5s;
-    cursor: pointer;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .good-listItem__img img:hover {
-    transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .good-listItem__name {
-    font-size: 18px;
-    font-family: MullerExtraBold;
-    color: #382400;
-    margin-bottom: 13px;
+  font-size: 18px;
+  font-family: MullerExtraBold;
+  color: #382400;
+  margin-bottom: 13px;
 }
 
 .good-listItem__ingredients {
-    line-height: 18px;
-    color: #181a1a;
+  line-height: 18px;
+  color: #181a1a;
 }
 
 .btn__cart {
-    display: block;
-    padding: 18px 0;
+  display: block;
+  padding: 18px 0;
 }

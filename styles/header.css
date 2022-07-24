@@ -2,15 +2,13 @@ header {
   padding: 132px 0 80px;
 }
 
-header .container>div {
+header .container > div {
   display: flex;
   align-items: center;
   column-gap: 60px;
 }
 
 .left-part {
-  display: flex;
-  flex-direction: column;
   row-gap: 60px;
 }
 
@@ -21,8 +19,6 @@ header .container>div {
 }
 
 .benefits {
-  display: flex;
-  flex-direction: column;
   row-gap: 45px;
 }
 
